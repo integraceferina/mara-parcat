@@ -1,0 +1,110 @@
+body {
+ font-family: 'Cookie', cursive;
+ background-color: black;
+ 
+}
+h3{
+  font-size: 50px;
+}
+p{
+  font-size: 30px;
+}
+
+.fas{
+color: gray;
+font-size: 20px; 
+}
+
+.navbar-brand i{
+  font-family: 'Qwigley', cursive;
+  font-size:30px;
+  color: gray;
+ margin-left: 0.5rem;
+}
+
+.img-thumbnail{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+ .img-fluid{
+  width: 270px;
+  height:320px ;
+  margin: 20px 20px; 
+
+} 
+.carousel{
+ width: auto; 
+ height: auto; 
+
+ }
+
+.navbar {
+  font-size:25px;
+  background-color: black;
+  box-shadow: 0 2px 4px 0 rgba(10, 10, 10, 0.05);
+  min-height: 30px;
+}
+
+.nav-link {
+  color: gray;
+}
+
+.nav-link:hover {
+  color:white;
+  
+}
+.dropdown-menu{
+  font-size:25px;
+  background-color: black;
+  box-shadow: 0 2px 4px 0 rgba(10, 10, 10, 0.05);
+  min-height: 30px;
+}
+.dropdown-item{
+  color: gray;
+}
+.dropdown-item:hover{
+  color: white;
+  background-color: black;
+}
+
+.navbar-toggler {
+  font-size: 40px;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.footer {
+  font-family: 'Cookie', cursive;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  padding: 0px 20px;
+  color: white;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a {
+  color:white;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0px 5px;
+  }
+  .footer-links a:hover {
+  opacity: 1;
+}
+.footer-copyright{
+  color: gray;
+  font-size: 15px;
+}
+.footer .fa-heart {
+color: #D23333;
+}
