@@ -11,24 +11,15 @@
   <!--CSS only-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <!-- JS, Popper.js, and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="style.css">
+  
 </head>
+
 <body>
- 
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="Index.html"><img src="web-de-mara/icono.ico" class="img-thumbnail" alt="icono"><i>Mara Parcat</i></a>
+      <a class="navbar-brand" href="Index.html"><img src="web-de-mara/icono.ico" class="img-thumbnail"
+          alt="icono"><i>Mara Parcat</i></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-ellipsis-v"></i>
@@ -39,7 +30,7 @@
           <li class="nav-item">
             <a class="nav-link" href="Index.html" id="Inicio">Inicio</a>
           </li>
-          <a class="nav-link" href="Galeria.html"id="Galeria">Galeria</a>
+          <a class="nav-link" href="Galeria.html" id="Galeria">Galeria</a>
           <li class="nav-item">
             <a class="nav-link" href="Diseños-Disponibles.html" id="Diseños-Disponibles">Diseños Disponibles</a>
           </li>
@@ -61,21 +52,71 @@
       </div>
     </div>
   </nav>
-
-
-
-
-  <div class="footer">
+  <h2 class="text-center mb-3 mt-5">Consultas</h2>
+<div class="container">
+  <div class="row d-flex justify-content-center">
+<div class="col-12 col-sm-8">
+    <div class="p-3 mb-2 bg-light border px-4 py-5">
+  <form id="info">
+    <div class="form-group">
+      <label for="nombreyapellido">Nombre y Apellido</label>
+      <input type="text" class="form-control" id="nombreyapellido" placeholder="Nombre y Apellido">
+      <small id="nombreyapellidoHelp" class="form-text text-danger"></small>
+      </div>
+    <div class="form-group">
+      <label for="telefono">Telefono</label>
+      <input type="text" class="form-control" id="telefono" placeholder="Telefono">
+      <small id="telefonoHelp" class="form-text text-danger"></small>
+  </div>
+      <div class="form-group">
+        <label for="email">Email </label>
+        <input type="email" class="form-control" id="email" placeholder="nombre123@ejemplo.com">
+        <small id="emailHelp" class="form-text text-danger"></small>
+      </div>
+      <div class="form-group">
+        <label for="asunto">Asunto</label>
+        <select class="form-control" id="asunto">
+          <option>tatuajes</option>
+          <option>muralismo</option>
+          <option>pinturas</option>
+          <option>folletos</option>
+          <option>proyecto ceramica</option>
+        </select>
+        
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="3"></textarea>
+        
+      </div>
+        <button type="submit" class="btn btn-dark">Enviar</button>
+    </form>
+</div>
+  </div>
+  </div>
+  </div>
+  <div class="footer mt-5">
     <div class="footer-links">
-      <a href="https://www.instagram.com/parcatttt/"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.facebook.com/mari.schurrer"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-whatsapp"></i></a>
-      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/parcatttt/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/mari.schurrer" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=+5493512142353" target="_blank"><i class="fab fa-whatsapp"></i></a>
     </div>
     <div class="footer-copyright">
       Realizado por Yesica.M.Ferreyra <i class="fas fa-heart"></i> para una talentosa amiga
     </div>
   </div>
+  <!-- Scripts -->
+  <script src="../Mara/script/validation.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
